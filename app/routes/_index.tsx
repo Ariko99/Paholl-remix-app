@@ -1,8 +1,9 @@
 import type { MetaFunction } from "@remix-run/node";
+import MyContact from "./myContact";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Paholl yangyuen" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
@@ -42,6 +43,14 @@ export default function Index() {
             Remix Docs
           </a>
         </li>
+        <div>
+
+        <ul className="list-disc mt-4 pl-6 space-y-2">
+          <h1 className="text-3xl">Welcome to paholl profile</h1>
+        </ul>
+        <MyContact />
+        </div>
+        
       </ul>
     </div>
   );
