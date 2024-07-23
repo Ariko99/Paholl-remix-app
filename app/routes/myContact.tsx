@@ -1,5 +1,6 @@
 import ToDoLists from "./toDoList";
 
+
 function MyProfile() {
     const name = "paholl yangyuen";
     const profile = "/images/img1.jpg";
@@ -32,6 +33,7 @@ export default function MyContact(){
             <MyProfile />
             <>
             <ToDoLists />
+            
             </>
         </div>
         
